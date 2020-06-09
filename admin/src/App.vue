@@ -3,18 +3,13 @@
 </template>
 
 <script lang="ts">
-import Vue from 'vue'
+import { Vue, Component } from 'vue-property-decorator'
 import HelloWorld from './components/HelloWorld.vue'
 
-export default Vue.extend({
-  name: 'App',
-
+@Component({
   components: {
     HelloWorld
-  },
-
-  data: () => ({
-    //
-  })
+  }
 })
+export default class App extends Vue {}
 </script>
