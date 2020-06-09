@@ -1,1 +1,1 @@
-export { AdminType as default } from './admin.type'
+export { AdminType } from './admin.type'

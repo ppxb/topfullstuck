@@ -11,6 +11,7 @@ type Recipe {
 type Query {
   recipe(id: String!): Recipe!
   recipes(skip: Int = 0, take: Int = 25): [Recipe!]!
+  admins: [String!]!
 }
 
 type Mutation {

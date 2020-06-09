@@ -3,6 +3,7 @@ import { GraphQLModule } from '@nestjs/graphql'
 import { DatabaseModule } from 'src/database/database.module'
 import { RecipesResolver } from 'src/recipes/recipes.resolver'
 import { RecipesService } from 'src/recipes/recipes.service'
+import { AdminResolver } from './resolver'
 
 @Module({
   imports: [
@@ -12,6 +13,6 @@ import { RecipesService } from 'src/recipes/recipes.service'
       autoSchemaFile: 'schema.gql'
     })
   ],
-  providers: [RecipesService, RecipesResolver]
+  providers: [RecipesService, RecipesResolver, AdminResolver]
 })
 export class GraphQLAppModule {}
