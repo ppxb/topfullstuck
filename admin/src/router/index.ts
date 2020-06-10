@@ -14,17 +14,17 @@ const routes: RouteConfig[] = [
         path: '/',
         component: async () => import('../views/Home.vue')
       },
-      // {
-      //   name: 'banner',
-      //   path: '/banner',
-      //   component: async () => import('../views/Banner.vue')
-      // },
       {
         name: 'test',
         path: '/test',
         component: async () => import('../views/GraphQL.vue')
       }
     ]
+  },
+  {
+    name: 'login',
+    path: '/login',
+    component: async () => import('../views/Login.vue')
   }
 ]
 

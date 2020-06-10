@@ -1,6 +1,9 @@
 import { Module } from '@nestjs/common'
-import { MongooseModule } from '@nestjs/mongoose'
-import modules from '../database/schema'
+import { InjectModel, MongooseModule } from '@nestjs/mongoose'
+import { Model } from 'mongoose'
+import { genPsd } from 'src/utils'
+import { modules } from '../database/schema'
+import { Admin } from './schema/admin.schema'
 
 @Module({
   imports: [
@@ -19,4 +22,18 @@ import modules from '../database/schema'
   ],
   exports: [modules]
 })
-export class DatabaseModule {}
+export class DatabaseModule {
+  constructor(
+    @InjectModel(Admin.name) private readonly AdminModel: Model<Admin>
+  ) {
+    AdminModel.find({ username: 'admin' }).then(async res => {
+      if (!res.length) {
+        const model = new AdminModel({
+          username: 'admin',
+          password: await genPsd('123456')
+        })
+        await model.save()
+      }
+    })
+  }
+}
