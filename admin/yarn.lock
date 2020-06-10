@@ -950,187 +950,187 @@
     ts-node "^8"
     tslib "^1"
 
-"@graphql-tools/code-file-loader@6.0.8":
-  version "6.0.8"
-  resolved "https://registry.npm.taobao.org/@graphql-tools/code-file-loader/download/@graphql-tools/code-file-loader-6.0.8.tgz?cache=0&other_urls=https%3A%2F%2Fregistry.npm.taobao.org%2F%40graphql-tools%2Fcode-file-loader%2Fdownload%2F%40graphql-tools%2Fcode-file-loader-6.0.8.tgz#6fd21049922066bf0566b922dd9d71a25b42b763"
-  integrity sha1-b9IQSZIgZr8FZrki3Z1xoltCt2M=
+"@graphql-tools/code-file-loader@6.0.9":
+  version "6.0.9"
+  resolved "https://registry.npm.taobao.org/@graphql-tools/code-file-loader/download/@graphql-tools/code-file-loader-6.0.9.tgz#3808b0d351bf698de438a7a2ac0c89aa2e73b56d"
+  integrity sha1-OAiw01G/aY3kOKeirAyJqi5ztW0=
   dependencies:
-    "@graphql-tools/graphql-tag-pluck" "6.0.8"
-    "@graphql-tools/utils" "6.0.8"
+    "@graphql-tools/graphql-tag-pluck" "6.0.9"
+    "@graphql-tools/utils" "6.0.9"
     fs-extra "9.0.1"
     tslib "~2.0.0"
 
-"@graphql-tools/delegate@6.0.8":
-  version "6.0.8"
-  resolved "https://registry.npm.taobao.org/@graphql-tools/delegate/download/@graphql-tools/delegate-6.0.8.tgz#95060fa0b26a8d549907016164105f04150c0c89"
-  integrity sha1-lQYPoLJqjVSZBwFhZBBfBBUMDIk=
+"@graphql-tools/delegate@6.0.9":
+  version "6.0.9"
+  resolved "https://registry.npm.taobao.org/@graphql-tools/delegate/download/@graphql-tools/delegate-6.0.9.tgz#f3cd06837c502c596d1a3e1d625d9c95168825fc"
+  integrity sha1-880Gg3xQLFltGj4dYl2clRaIJfw=
   dependencies:
-    "@graphql-tools/schema" "6.0.8"
-    "@graphql-tools/utils" "6.0.8"
+    "@graphql-tools/schema" "6.0.9"
+    "@graphql-tools/utils" "6.0.9"
     tslib "~2.0.0"
 
-"@graphql-tools/git-loader@6.0.8":
-  version "6.0.8"
-  resolved "https://registry.npm.taobao.org/@graphql-tools/git-loader/download/@graphql-tools/git-loader-6.0.8.tgz?cache=0&other_urls=https%3A%2F%2Fregistry.npm.taobao.org%2F%40graphql-tools%2Fgit-loader%2Fdownload%2F%40graphql-tools%2Fgit-loader-6.0.8.tgz#57d5d63b09ed2d36b5b0c90eed33d5dca8c0517b"
-  integrity sha1-V9XWOwntLTa1sMkO7TPV3KjAUXs=
+"@graphql-tools/git-loader@6.0.9":
+  version "6.0.9"
+  resolved "https://registry.npm.taobao.org/@graphql-tools/git-loader/download/@graphql-tools/git-loader-6.0.9.tgz#be91e6368ee0282e7388337808a78e2a9f72b2ec"
+  integrity sha1-vpHmNo7gKC5ziDN4CKeOKp9ysuw=
   dependencies:
-    "@graphql-tools/graphql-tag-pluck" "6.0.8"
-    "@graphql-tools/utils" "6.0.8"
-    simple-git "2.5.0"
+    "@graphql-tools/graphql-tag-pluck" "6.0.9"
+    "@graphql-tools/utils" "6.0.9"
+    simple-git "2.6.0"
 
-"@graphql-tools/github-loader@6.0.8":
-  version "6.0.8"
-  resolved "https://registry.npm.taobao.org/@graphql-tools/github-loader/download/@graphql-tools/github-loader-6.0.8.tgz?cache=0&other_urls=https%3A%2F%2Fregistry.npm.taobao.org%2F%40graphql-tools%2Fgithub-loader%2Fdownload%2F%40graphql-tools%2Fgithub-loader-6.0.8.tgz#1aae2f860ba9205894875e2215ee0ddda2e2ee2b"
-  integrity sha1-Gq4vhgupIFiUh14iFe4N3aLi7is=
+"@graphql-tools/github-loader@6.0.9":
+  version "6.0.9"
+  resolved "https://registry.npm.taobao.org/@graphql-tools/github-loader/download/@graphql-tools/github-loader-6.0.9.tgz#15da96ffc86086c7ca74f064b8bd1b9eb4311775"
+  integrity sha1-FdqW/8hghsfKdPBkuL0bnrQxF3U=
   dependencies:
-    "@graphql-tools/graphql-tag-pluck" "6.0.8"
-    "@graphql-tools/utils" "6.0.8"
+    "@graphql-tools/graphql-tag-pluck" "6.0.9"
+    "@graphql-tools/utils" "6.0.9"
     cross-fetch "3.0.4"
 
-"@graphql-tools/graphql-file-loader@6.0.8":
-  version "6.0.8"
-  resolved "https://registry.npm.taobao.org/@graphql-tools/graphql-file-loader/download/@graphql-tools/graphql-file-loader-6.0.8.tgz?cache=0&other_urls=https%3A%2F%2Fregistry.npm.taobao.org%2F%40graphql-tools%2Fgraphql-file-loader%2Fdownload%2F%40graphql-tools%2Fgraphql-file-loader-6.0.8.tgz#ab23b35e47d52925e6e94b6521391161a9b37e0f"
-  integrity sha1-qyOzXkfVKSXm6UtlITkRYamzfg8=
+"@graphql-tools/graphql-file-loader@6.0.9":
+  version "6.0.9"
+  resolved "https://registry.npm.taobao.org/@graphql-tools/graphql-file-loader/download/@graphql-tools/graphql-file-loader-6.0.9.tgz#b1bdf2dc6d6c6993eafc976b779a005e86a39479"
+  integrity sha1-sb3y3G1saZPq/Jdrd5oAXoajlHk=
   dependencies:
-    "@graphql-tools/import" "6.0.8"
-    "@graphql-tools/utils" "6.0.8"
+    "@graphql-tools/import" "6.0.9"
+    "@graphql-tools/utils" "6.0.9"
     fs-extra "9.0.1"
     tslib "~2.0.0"
 
-"@graphql-tools/graphql-tag-pluck@6.0.8":
-  version "6.0.8"
-  resolved "https://registry.npm.taobao.org/@graphql-tools/graphql-tag-pluck/download/@graphql-tools/graphql-tag-pluck-6.0.8.tgz#e4c8217637756190e6981841d1a12b4fbb71191d"
-  integrity sha1-5Mghdjd1YZDmmBhB0aErT7txGR0=
+"@graphql-tools/graphql-tag-pluck@6.0.9":
+  version "6.0.9"
+  resolved "https://registry.npm.taobao.org/@graphql-tools/graphql-tag-pluck/download/@graphql-tools/graphql-tag-pluck-6.0.9.tgz#dde8f2d1d7b1586fb37f666fc9ff81c9db31ea37"
+  integrity sha1-3ejy0dexWG+zf2Zvyf+Bydsx6jc=
   dependencies:
     "@babel/parser" "7.10.2"
     "@babel/traverse" "7.10.1"
     "@babel/types" "7.10.2"
-    "@graphql-tools/utils" "6.0.8"
+    "@graphql-tools/utils" "6.0.9"
   optionalDependencies:
     vue-template-compiler "^2.6.11"
 
-"@graphql-tools/import@6.0.8":
-  version "6.0.8"
-  resolved "https://registry.npm.taobao.org/@graphql-tools/import/download/@graphql-tools/import-6.0.8.tgz#62dd372d3ce1e2cac471047d80468f4db1294792"
-  integrity sha1-Yt03LTzh4srEcQR9gEaPTbEpR5I=
+"@graphql-tools/import@6.0.9":
+  version "6.0.9"
+  resolved "https://registry.npm.taobao.org/@graphql-tools/import/download/@graphql-tools/import-6.0.9.tgz#20d1ffc480e895de87a69eb94631332126751c29"
+  integrity sha1-INH/xIDold6Hpp65RjEzISZ1HCk=
   dependencies:
     fs-extra "9.0.1"
     resolve-from "5.0.0"
 
-"@graphql-tools/json-file-loader@6.0.8":
-  version "6.0.8"
-  resolved "https://registry.npm.taobao.org/@graphql-tools/json-file-loader/download/@graphql-tools/json-file-loader-6.0.8.tgz?cache=0&other_urls=https%3A%2F%2Fregistry.npm.taobao.org%2F%40graphql-tools%2Fjson-file-loader%2Fdownload%2F%40graphql-tools%2Fjson-file-loader-6.0.8.tgz#e13a2d944c8336c26d4469f6e95b67f479419fee"
-  integrity sha1-4TotlEyDNsJtRGn26Vtn9HlBn+4=
+"@graphql-tools/json-file-loader@6.0.9":
+  version "6.0.9"
+  resolved "https://registry.npm.taobao.org/@graphql-tools/json-file-loader/download/@graphql-tools/json-file-loader-6.0.9.tgz#a91c834bef9cde4d6945b623e415e556314f43ff"
+  integrity sha1-qRyDS++c3k1pRbYj5BXlVjFPQ/8=
   dependencies:
-    "@graphql-tools/utils" "6.0.8"
+    "@graphql-tools/utils" "6.0.9"
     fs-extra "9.0.1"
     tslib "~2.0.0"
 
-"@graphql-tools/links@6.0.8":
-  version "6.0.8"
-  resolved "https://registry.npm.taobao.org/@graphql-tools/links/download/@graphql-tools/links-6.0.8.tgz#f9cd2dbbc0697610443db65db367615f5333a900"
-  integrity sha1-+c0tu8BpdhBEPbZds2dhX1MzqQA=
+"@graphql-tools/links@6.0.9":
+  version "6.0.9"
+  resolved "https://registry.npm.taobao.org/@graphql-tools/links/download/@graphql-tools/links-6.0.9.tgz#4dd0e7ffc96bc1a22bb9f3a2817e21ec16b52992"
+  integrity sha1-TdDn/8lrwaIrufOigX4h7Ba1KZI=
   dependencies:
-    "@graphql-tools/utils" "6.0.8"
+    "@graphql-tools/utils" "6.0.9"
     apollo-link "1.2.14"
     apollo-upload-client "13.0.0"
     cross-fetch "3.0.4"
     form-data "3.0.0"
     tslib "~2.0.0"
 
-"@graphql-tools/load-files@6.0.8":
-  version "6.0.8"
-  resolved "https://registry.npm.taobao.org/@graphql-tools/load-files/download/@graphql-tools/load-files-6.0.8.tgz#91b20b8c2cb06d1dbdd5fafffa5e8c7ab36a080a"
-  integrity sha1-kbILjCywbR291fr/+l6MerNqCAo=
+"@graphql-tools/load-files@6.0.9":
+  version "6.0.9"
+  resolved "https://registry.npm.taobao.org/@graphql-tools/load-files/download/@graphql-tools/load-files-6.0.9.tgz#1f93590e84a1c5df23aa03b085d98223e38f153f"
+  integrity sha1-H5NZDoShxd8jqgOwhdmCI+OPFT8=
   dependencies:
     fs-extra "9.0.1"
     globby "11.0.1"
     unixify "1.0.0"
 
-"@graphql-tools/load@6.0.8":
-  version "6.0.8"
-  resolved "https://registry.npm.taobao.org/@graphql-tools/load/download/@graphql-tools/load-6.0.8.tgz?cache=0&other_urls=https%3A%2F%2Fregistry.npm.taobao.org%2F%40graphql-tools%2Fload%2Fdownload%2F%40graphql-tools%2Fload-6.0.8.tgz#9b6ea810a0054682e43630ebd263b53a89ac9b01"
-  integrity sha1-m26oEKAFRoLkNjDr0mO1OomsmwE=
+"@graphql-tools/load@6.0.9":
+  version "6.0.9"
+  resolved "https://registry.npm.taobao.org/@graphql-tools/load/download/@graphql-tools/load-6.0.9.tgz#53aaac36485556abd5ce4cffeb290ecf68549825"
+  integrity sha1-U6qsNkhVVqvVzkz/6ykOz2hUmCU=
   dependencies:
-    "@graphql-tools/merge" "6.0.8"
-    "@graphql-tools/utils" "6.0.8"
+    "@graphql-tools/merge" "6.0.9"
+    "@graphql-tools/utils" "6.0.9"
     globby "11.0.1"
     import-from "3.0.0"
     is-glob "4.0.1"
-    p-limit "2.3.0"
+    p-limit "3.0.1"
     tslib "~2.0.0"
     unixify "1.0.0"
     valid-url "1.0.9"
 
-"@graphql-tools/merge@6.0.8":
-  version "6.0.8"
-  resolved "https://registry.npm.taobao.org/@graphql-tools/merge/download/@graphql-tools/merge-6.0.8.tgz#e62cf3438a0864f9adbb65f795315c83cf59f897"
-  integrity sha1-5izzQ4oIZPmtu2X3lTFcg89Z+Jc=
+"@graphql-tools/merge@6.0.9":
+  version "6.0.9"
+  resolved "https://registry.npm.taobao.org/@graphql-tools/merge/download/@graphql-tools/merge-6.0.9.tgz#2432352512825b0639d55d379acd172055e30d32"
+  integrity sha1-JDI1JRKCWwY51V03ms0XIFXjDTI=
   dependencies:
-    "@graphql-tools/schema" "6.0.8"
-    "@graphql-tools/utils" "6.0.8"
+    "@graphql-tools/schema" "6.0.9"
+    "@graphql-tools/utils" "6.0.9"
     tslib "~2.0.0"
 
-"@graphql-tools/mock@6.0.8":
-  version "6.0.8"
-  resolved "https://registry.npm.taobao.org/@graphql-tools/mock/download/@graphql-tools/mock-6.0.8.tgz#2d83b867d80f664f0c7b49ca5facbce4993443c9"
-  integrity sha1-LYO4Z9gPZk8Me0nKX6y85Jk0Q8k=
+"@graphql-tools/mock@6.0.9":
+  version "6.0.9"
+  resolved "https://registry.npm.taobao.org/@graphql-tools/mock/download/@graphql-tools/mock-6.0.9.tgz#f8aeaf0b2b81acc0873ae8aa8331c1d4c52d6591"
+  integrity sha1-+K6vCyuBrMCHOuiqgzHB1MUtZZE=
   dependencies:
-    "@graphql-tools/schema" "6.0.8"
-    "@graphql-tools/utils" "6.0.8"
+    "@graphql-tools/schema" "6.0.9"
+    "@graphql-tools/utils" "6.0.9"
     tslib "~2.0.0"
 
-"@graphql-tools/module-loader@6.0.8":
-  version "6.0.8"
-  resolved "https://registry.npm.taobao.org/@graphql-tools/module-loader/download/@graphql-tools/module-loader-6.0.8.tgz#0ae79b79ce7dd5ff5d855e98cd12ba1724a0b85f"
-  integrity sha1-Cuebec591f9dhV6YzRK6FySguF8=
+"@graphql-tools/module-loader@6.0.9":
+  version "6.0.9"
+  resolved "https://registry.npm.taobao.org/@graphql-tools/module-loader/download/@graphql-tools/module-loader-6.0.9.tgz#695fca3eff24bdc8af2836e201988c490080fbd8"
+  integrity sha1-aV/KPv8kvcivKDbiAZiMSQCA+9g=
   dependencies:
-    "@graphql-tools/utils" "6.0.8"
+    "@graphql-tools/utils" "6.0.9"
     tslib "~2.0.0"
 
-"@graphql-tools/relay-operation-optimizer@6.0.8":
-  version "6.0.8"
-  resolved "https://registry.npm.taobao.org/@graphql-tools/relay-operation-optimizer/download/@graphql-tools/relay-operation-optimizer-6.0.8.tgz#cd3f19583dfc40d229ce9de63cc5caa6ba2fbce2"
-  integrity sha1-zT8ZWD38QNIpzp3mPMXKprovvOI=
+"@graphql-tools/relay-operation-optimizer@6.0.9":
+  version "6.0.9"
+  resolved "https://registry.npm.taobao.org/@graphql-tools/relay-operation-optimizer/download/@graphql-tools/relay-operation-optimizer-6.0.9.tgz#ec808f00e117a0014410e0091b614072febce5bc"
+  integrity sha1-7ICPAOEXoAFEEOAJG2FAcv685bw=
   dependencies:
-    "@graphql-tools/utils" "6.0.8"
+    "@graphql-tools/utils" "6.0.9"
     relay-compiler "9.1.0"
 
-"@graphql-tools/resolvers-composition@6.0.8":
-  version "6.0.8"
-  resolved "https://registry.npm.taobao.org/@graphql-tools/resolvers-composition/download/@graphql-tools/resolvers-composition-6.0.8.tgz#41f57e3d60ad12a06dfcfee8f5ac05ed6911474a"
-  integrity sha1-QfV+PWCtEqBt/P7o9awF7WkRR0o=
+"@graphql-tools/resolvers-composition@6.0.9":
+  version "6.0.9"
+  resolved "https://registry.npm.taobao.org/@graphql-tools/resolvers-composition/download/@graphql-tools/resolvers-composition-6.0.9.tgz#f28b7092e09de99b31d93d5e34dfa65dfa410a4f"
+  integrity sha1-8otwkuCd6Zsx2T1eNN+mXfpBCk8=
   dependencies:
-    "@graphql-tools/utils" "6.0.8"
+    "@graphql-tools/utils" "6.0.9"
     lodash "4.17.15"
 
-"@graphql-tools/schema@6.0.8":
-  version "6.0.8"
-  resolved "https://registry.npm.taobao.org/@graphql-tools/schema/download/@graphql-tools/schema-6.0.8.tgz#37ebf615079fd03e6cecd64ea5122311d4c66e74"
-  integrity sha1-N+v2FQef0D5s7NZOpRIjEdTGbnQ=
+"@graphql-tools/schema@6.0.9":
+  version "6.0.9"
+  resolved "https://registry.npm.taobao.org/@graphql-tools/schema/download/@graphql-tools/schema-6.0.9.tgz#1b9d7a465c0459cdfbce5860fa8c7ef89f0d96b5"
+  integrity sha1-G516RlwEWc37zlhg+ox++J8NlrU=
   dependencies:
-    "@graphql-tools/utils" "6.0.8"
+    "@graphql-tools/utils" "6.0.9"
     tslib "~2.0.0"
 
-"@graphql-tools/stitch@6.0.8":
-  version "6.0.8"
-  resolved "https://registry.npm.taobao.org/@graphql-tools/stitch/download/@graphql-tools/stitch-6.0.8.tgz#2a4315f2f1d35fa0f82ab106af137e6734e08963"
-  integrity sha1-KkMV8vHTX6D4KrEGrxN+ZzTgiWM=
+"@graphql-tools/stitch@6.0.9":
+  version "6.0.9"
+  resolved "https://registry.npm.taobao.org/@graphql-tools/stitch/download/@graphql-tools/stitch-6.0.9.tgz#b0895d3566da9d1f29bdff71bcffe48e789eb777"
+  integrity sha1-sIldNWbanR8pvf9xvP/kjniet3c=
   dependencies:
-    "@graphql-tools/delegate" "6.0.8"
-    "@graphql-tools/schema" "6.0.8"
-    "@graphql-tools/utils" "6.0.8"
-    "@graphql-tools/wrap" "6.0.8"
+    "@graphql-tools/delegate" "6.0.9"
+    "@graphql-tools/schema" "6.0.9"
+    "@graphql-tools/utils" "6.0.9"
+    "@graphql-tools/wrap" "6.0.9"
     tslib "~2.0.0"
 
-"@graphql-tools/url-loader@6.0.8":
-  version "6.0.8"
-  resolved "https://registry.npm.taobao.org/@graphql-tools/url-loader/download/@graphql-tools/url-loader-6.0.8.tgz?cache=0&sync_timestamp=1591665993891&other_urls=https%3A%2F%2Fregistry.npm.taobao.org%2F%40graphql-tools%2Furl-loader%2Fdownload%2F%40graphql-tools%2Furl-loader-6.0.8.tgz#65b96282c2a9c3a779733d3d8cfe86545ac9b14a"
-  integrity sha1-ZbligsKpw6d5cz09jP6GVFrJsUo=
+"@graphql-tools/url-loader@6.0.9":
+  version "6.0.9"
+  resolved "https://registry.npm.taobao.org/@graphql-tools/url-loader/download/@graphql-tools/url-loader-6.0.9.tgz#5a321ad545a037d81ddec423fcb6a337c3ae9e0d"
+  integrity sha1-WjIa1UWgN9gd3sQj/LajN8Oung0=
   dependencies:
-    "@graphql-tools/delegate" "6.0.8"
-    "@graphql-tools/utils" "6.0.8"
-    "@graphql-tools/wrap" "6.0.8"
+    "@graphql-tools/delegate" "6.0.9"
+    "@graphql-tools/utils" "6.0.9"
+    "@graphql-tools/wrap" "6.0.9"
     "@types/websocket" "1.0.0"
     cross-fetch "3.0.4"
     subscriptions-transport-ws "0.9.16"
@@ -1138,21 +1138,21 @@
     valid-url "1.0.9"
     websocket "1.0.31"
 
-"@graphql-tools/utils@6.0.8":
-  version "6.0.8"
-  resolved "https://registry.npm.taobao.org/@graphql-tools/utils/download/@graphql-tools/utils-6.0.8.tgz?cache=0&sync_timestamp=1591665994180&other_urls=https%3A%2F%2Fregistry.npm.taobao.org%2F%40graphql-tools%2Futils%2Fdownload%2F%40graphql-tools%2Futils-6.0.8.tgz#0d4b8cb22bb45492153d021e843a6a99894e34ac"
-  integrity sha1-DUuMsiu0VJIVPQIehDpqmYlONKw=
+"@graphql-tools/utils@6.0.9":
+  version "6.0.9"
+  resolved "https://registry.npm.taobao.org/@graphql-tools/utils/download/@graphql-tools/utils-6.0.9.tgz#135a56f6520a99a2bbbfaf7d76bd5f681d1ce457"
+  integrity sha1-E1pW9lIKmaK7v699dr1faB0c5Fc=
   dependencies:
     camel-case "4.1.1"
 
-"@graphql-tools/wrap@6.0.8":
-  version "6.0.8"
-  resolved "https://registry.npm.taobao.org/@graphql-tools/wrap/download/@graphql-tools/wrap-6.0.8.tgz#468685f73bcbd03210b123bf6eb5ab2ca7b140cd"
-  integrity sha1-RoaF9zvL0DIQsSO/brWrLKexQM0=
+"@graphql-tools/wrap@6.0.9":
+  version "6.0.9"
+  resolved "https://registry.npm.taobao.org/@graphql-tools/wrap/download/@graphql-tools/wrap-6.0.9.tgz#c8f447513ca9d10c31e695ad09992fb0c4ae0518"
+  integrity sha1-yPRHUTyp0Qwx5pWtCZkvsMSuBRg=
   dependencies:
-    "@graphql-tools/delegate" "6.0.8"
-    "@graphql-tools/schema" "6.0.8"
-    "@graphql-tools/utils" "6.0.8"
+    "@graphql-tools/delegate" "6.0.9"
+    "@graphql-tools/schema" "6.0.9"
+    "@graphql-tools/utils" "6.0.9"
     tslib "~2.0.0"
 
 "@hapi/address@2.x.x":
@@ -1195,11 +1195,6 @@
     cssnano "^4.0.0"
     cssnano-preset-default "^4.0.0"
     postcss "^7.0.0"
-
-"@kwsites/exec-p@^0.4.0":
-  version "0.4.0"
-  resolved "https://registry.npm.taobao.org/@kwsites/exec-p/download/@kwsites/exec-p-0.4.0.tgz#ab3765d482849ba6e825721077c248cf9f3323b7"
-  integrity sha1-qzdl1IKEm6boJXIQd8JIz58zI7c=
 
 "@mrmlnc/readdir-enhanced@^2.2.1":
   version "2.2.1"
@@ -4299,7 +4294,7 @@ debug@^3.0.0, debug@^3.1.1, debug@^3.2.5, debug@^3.2.6:
   dependencies:
     ms "^2.1.1"
 
-debug@^4.0.0, debug@^4.0.1, debug@^4.1.0, debug@^4.1.1:
+debug@^4.0.0, debug@^4.1.0, debug@^4.1.1:
   version "4.1.1"
   resolved "https://registry.npm.taobao.org/debug/download/debug-4.1.1.tgz?cache=0&other_urls=https%3A%2F%2Fregistry.npm.taobao.org%2Fdebug%2Fdownload%2Fdebug-4.1.1.tgz#3b72260255109c6b589cee050f1d516139664791"
   integrity sha1-O3ImAlUQnGtYnO4FDx1RYTlmR5E=
@@ -5649,31 +5644,31 @@ graphql-tools@^4.0.0:
     uuid "^3.1.0"
 
 graphql-tools@^6.0.9:
-  version "6.0.8"
-  resolved "https://registry.npm.taobao.org/graphql-tools/download/graphql-tools-6.0.8.tgz?cache=0&sync_timestamp=1591627843686&other_urls=https%3A%2F%2Fregistry.npm.taobao.org%2Fgraphql-tools%2Fdownload%2Fgraphql-tools-6.0.8.tgz#893ca75b6f83b77b985c9246d67bd63d36c0a65c"
-  integrity sha1-iTynW2+Dt3uYXJJG1nvWPTbAplw=
+  version "6.0.9"
+  resolved "https://registry.npm.taobao.org/graphql-tools/download/graphql-tools-6.0.9.tgz?cache=0&sync_timestamp=1591754483853&other_urls=https%3A%2F%2Fregistry.npm.taobao.org%2Fgraphql-tools%2Fdownload%2Fgraphql-tools-6.0.9.tgz#79cdaae87d03a4c6ff60ab0e57a7476c131aed49"
+  integrity sha1-ec2q6H0DpMb/YKsOV6dHbBMa7Uk=
   dependencies:
-    "@graphql-tools/code-file-loader" "6.0.8"
-    "@graphql-tools/delegate" "6.0.8"
-    "@graphql-tools/git-loader" "6.0.8"
-    "@graphql-tools/github-loader" "6.0.8"
-    "@graphql-tools/graphql-file-loader" "6.0.8"
-    "@graphql-tools/graphql-tag-pluck" "6.0.8"
-    "@graphql-tools/import" "6.0.8"
-    "@graphql-tools/json-file-loader" "6.0.8"
-    "@graphql-tools/links" "6.0.8"
-    "@graphql-tools/load" "6.0.8"
-    "@graphql-tools/load-files" "6.0.8"
-    "@graphql-tools/merge" "6.0.8"
-    "@graphql-tools/mock" "6.0.8"
-    "@graphql-tools/module-loader" "6.0.8"
-    "@graphql-tools/relay-operation-optimizer" "6.0.8"
-    "@graphql-tools/resolvers-composition" "6.0.8"
-    "@graphql-tools/schema" "6.0.8"
-    "@graphql-tools/stitch" "6.0.8"
-    "@graphql-tools/url-loader" "6.0.8"
-    "@graphql-tools/utils" "6.0.8"
-    "@graphql-tools/wrap" "6.0.8"
+    "@graphql-tools/code-file-loader" "6.0.9"
+    "@graphql-tools/delegate" "6.0.9"
+    "@graphql-tools/git-loader" "6.0.9"
+    "@graphql-tools/github-loader" "6.0.9"
+    "@graphql-tools/graphql-file-loader" "6.0.9"
+    "@graphql-tools/graphql-tag-pluck" "6.0.9"
+    "@graphql-tools/import" "6.0.9"
+    "@graphql-tools/json-file-loader" "6.0.9"
+    "@graphql-tools/links" "6.0.9"
+    "@graphql-tools/load" "6.0.9"
+    "@graphql-tools/load-files" "6.0.9"
+    "@graphql-tools/merge" "6.0.9"
+    "@graphql-tools/mock" "6.0.9"
+    "@graphql-tools/module-loader" "6.0.9"
+    "@graphql-tools/relay-operation-optimizer" "6.0.9"
+    "@graphql-tools/resolvers-composition" "6.0.9"
+    "@graphql-tools/schema" "6.0.9"
+    "@graphql-tools/stitch" "6.0.9"
+    "@graphql-tools/url-loader" "6.0.9"
+    "@graphql-tools/utils" "6.0.9"
+    "@graphql-tools/wrap" "6.0.9"
 
 graphql-upload@^8.0.2:
   version "8.1.0"
@@ -7891,10 +7886,10 @@ p-finally@^2.0.0:
   resolved "https://registry.npm.taobao.org/p-finally/download/p-finally-2.0.1.tgz#bd6fcaa9c559a096b680806f4d657b3f0f240561"
   integrity sha1-vW/KqcVZoJa2gIBvTWV7Pw8kBWE=
 
-p-limit@2.3.0, p-limit@^2.0.0, p-limit@^2.2.0, p-limit@^2.2.1, p-limit@^2.3.0:
-  version "2.3.0"
-  resolved "https://registry.npm.taobao.org/p-limit/download/p-limit-2.3.0.tgz#3dd33c647a214fdfffd835933eb086da0dc21db1"
-  integrity sha1-PdM8ZHohT9//2DWTPrCG2g3CHbE=
+p-limit@3.0.1:
+  version "3.0.1"
+  resolved "https://registry.npm.taobao.org/p-limit/download/p-limit-3.0.1.tgz#584784ac0722d1aed09f19f90ed2999af6ce2839"
+  integrity sha1-WEeErAci0a7Qnxn5DtKZmvbOKDk=
   dependencies:
     p-try "^2.0.0"
 
@@ -7904,6 +7899,13 @@ p-limit@^1.1.0:
   integrity sha1-uGvV8MJWkJEcdZD8v8IBDVSzzLg=
   dependencies:
     p-try "^1.0.0"
+
+p-limit@^2.0.0, p-limit@^2.2.0, p-limit@^2.2.1, p-limit@^2.3.0:
+  version "2.3.0"
+  resolved "https://registry.npm.taobao.org/p-limit/download/p-limit-2.3.0.tgz#3dd33c647a214fdfffd835933eb086da0dc21db1"
+  integrity sha1-PdM8ZHohT9//2DWTPrCG2g3CHbE=
+  dependencies:
+    p-try "^2.0.0"
 
 p-locate@^2.0.0:
   version "2.0.0"
@@ -9432,13 +9434,10 @@ signedsource@^1.0.0:
   resolved "https://registry.npm.taobao.org/signedsource/download/signedsource-1.0.0.tgz#1ddace4981798f93bd833973803d80d52e93ad6a"
   integrity sha1-HdrOSYF5j5O9gzlzgD2A1S6TrWo=
 
-simple-git@2.5.0:
-  version "2.5.0"
-  resolved "https://registry.npm.taobao.org/simple-git/download/simple-git-2.5.0.tgz?cache=0&sync_timestamp=1591518005408&other_urls=https%3A%2F%2Fregistry.npm.taobao.org%2Fsimple-git%2Fdownload%2Fsimple-git-2.5.0.tgz#538b14b25f83916a56f30eca53f13796db6712f6"
-  integrity sha1-U4sUsl+DkWpW8w7KU/E3lttnEvY=
-  dependencies:
-    "@kwsites/exec-p" "^0.4.0"
-    debug "^4.0.1"
+simple-git@2.6.0:
+  version "2.6.0"
+  resolved "https://registry.npm.taobao.org/simple-git/download/simple-git-2.6.0.tgz?cache=0&sync_timestamp=1591518090330&other_urls=https%3A%2F%2Fregistry.npm.taobao.org%2Fsimple-git%2Fdownload%2Fsimple-git-2.6.0.tgz#04b554d1038e6036af2ae4d67a30bc5fd75f4fcd"
+  integrity sha1-BLVU0QOOYDavKuTWejC8X9dfT80=
 
 simple-swizzle@^0.2.2:
   version "0.2.2"
