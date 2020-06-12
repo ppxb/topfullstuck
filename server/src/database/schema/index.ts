@@ -1,8 +1,2 @@
-import { MongooseModule } from '@nestjs/mongoose'
-import { Admin, AdminSchema } from './admin.schema'
-import { Recipe, RecipeSchema } from './recipe.schema'
-
-export const modules = MongooseModule.forFeature([
-  { name: Admin.name, schema: AdminSchema },
-  { name: Recipe.name, schema: RecipeSchema }
-])
+export { Admin, AdminSchema } from './admin.schema'
+export { Recipe, RecipeSchema } from './recipe.schema'

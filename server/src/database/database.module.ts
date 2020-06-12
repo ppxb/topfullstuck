@@ -1,12 +1,11 @@
 import { Module } from '@nestjs/common'
-import { InjectModel, MongooseModule } from '@nestjs/mongoose'
-import { Model } from 'mongoose'
-import { genPsd } from 'src/utils'
-import { modules } from '../database/schema'
-import { Admin } from './schema/admin.schema'
+import { MongooseModule } from '@nestjs/mongoose'
+import { AdminModule } from 'src/admin/admin.module'
+import { AdminService } from 'src/admin/admin.service'
 
 @Module({
   imports: [
+    AdminModule,
     MongooseModule.forRootAsync({
       useFactory: () => {
         return {
@@ -17,23 +16,11 @@ import { Admin } from './schema/admin.schema'
           useFindAndModify: false
         }
       }
-    }),
-    modules
-  ],
-  exports: [modules]
+    })
+  ]
 })
 export class DatabaseModule {
-  constructor(
-    @InjectModel(Admin.name) private readonly AdminModel: Model<Admin>
-  ) {
-    AdminModel.find({ username: 'admin' }).then(async res => {
-      if (!res.length) {
-        const model = new AdminModel({
-          username: 'admin',
-          password: await genPsd('123456')
-        })
-        await model.save()
-      }
-    })
+  constructor(private readonly adminService: AdminService) {
+    this.adminService.initAdmin()
   }
 }

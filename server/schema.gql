@@ -2,21 +2,21 @@
 # THIS FILE WAS AUTOMATICALLY GENERATED (DO NOT MODIFY)
 # ------------------------------------------------------
 
-type Recipe {
+type RecipeType {
   _id: ID!
   title: String!
   description: String!
 }
 
 type Query {
-  recipe(id: String!): Recipe!
-  recipes(skip: Int = 0, take: Int = 25): [Recipe!]!
-  admins: [String!]!
+  admin: [String!]!
+  recipe(id: String!): RecipeType!
+  recipes(skip: Int = 0, take: Int = 25): [RecipeType!]!
 }
 
 type Mutation {
-  addRecipe(newRecipeInput: NewRecipeInput!): Recipe!
-  updateRecipe(updateRecipeInput: UpdateRecipeInput!): Recipe!
+  addRecipe(newRecipeInput: NewRecipeInput!): RecipeType!
+  updateRecipe(updateRecipeInput: UpdateRecipeInput!): RecipeType!
   delRecipe(id: String!): Boolean!
 }
 
@@ -32,5 +32,5 @@ input UpdateRecipeInput {
 }
 
 type Subscription {
-  recipeAdd: Recipe!
+  recipeAdd: RecipeType!
 }

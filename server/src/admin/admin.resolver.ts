@@ -1,10 +1,10 @@
 import { Query, Resolver } from '@nestjs/graphql'
-import { AdminType } from '../types'
+import { AdminType } from 'src/graphql/types'
 
 @Resolver(of => AdminType)
 export class AdminResolver {
   @Query(returns => [String])
-  async admins() {
+  async admin() {
     return ['libai', 'xiaole']
   }
 }

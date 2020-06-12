@@ -1,7 +1,7 @@
 import { Field, ID, ObjectType } from '@nestjs/graphql'
 
 @ObjectType()
-export class Recipe {
+export class RecipeType {
   @Field(type => ID)
   _id: string
 

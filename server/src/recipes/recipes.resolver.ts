@@ -1,40 +1,40 @@
 import { Args, Mutation, Query, Resolver, Subscription } from '@nestjs/graphql'
 import { PubSub } from 'apollo-server-express'
+import { RecipeType } from '../graphql/types'
 import { NewRecipeInput } from './dto/new-recipe.input'
 import { RecipesArgs } from './dto/recipes.args'
 import { UpdateRecipeInput } from './dto/update-recipe.input'
-import { Recipe } from './recipe.graphql.model'
 import { RecipesService } from './recipes.service'
 
 const pubSub = new PubSub()
 
-@Resolver(of => Recipe)
+@Resolver(of => RecipeType)
 export class RecipesResolver {
   constructor(private readonly recipesService: RecipesService) {}
 
-  @Query(returns => Recipe)
-  async recipe(@Args('id') id: string): Promise<Recipe> {
+  @Query(returns => RecipeType)
+  async recipe(@Args('id') id: string): Promise<RecipeType> {
     return await this.recipesService.findOneById(id)
   }
 
-  @Query(returns => [Recipe])
-  async recipes(@Args() recipesArgs: RecipesArgs): Promise<Recipe[]> {
+  @Query(returns => [RecipeType])
+  async recipes(@Args() recipesArgs: RecipesArgs): Promise<RecipeType[]> {
     return await this.recipesService.findAll(recipesArgs)
   }
 
-  @Mutation(returns => Recipe)
+  @Mutation(returns => RecipeType)
   async addRecipe(
     @Args('newRecipeInput') newRecipeInput: NewRecipeInput
-  ): Promise<Recipe> {
+  ): Promise<RecipeType> {
     const recipe = await this.recipesService.create(newRecipeInput)
     pubSub.publish('recipeAdd', { recipeAdd: recipe })
     return recipe
   }
 
-  @Mutation(returns => Recipe)
+  @Mutation(returns => RecipeType)
   async updateRecipe(
     @Args('updateRecipeInput') updateRecipeInput: UpdateRecipeInput
-  ): Promise<Recipe> {
+  ): Promise<RecipeType> {
     const recipe = await this.recipesService.update(updateRecipeInput)
     return recipe
   }
@@ -44,7 +44,7 @@ export class RecipesResolver {
     return await this.recipesService.del(id)
   }
 
-  @Subscription(returns => Recipe)
+  @Subscription(returns => RecipeType)
   recipeAdd() {
     return pubSub.asyncIterator('recipeAdd')
   }
