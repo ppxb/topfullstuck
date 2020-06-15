@@ -1,6 +1,7 @@
 import { Global, Module } from '@nestjs/common'
 import { GraphQLModule } from '@nestjs/graphql'
 import { JwtModule } from '@nestjs/jwt'
+import { CourseModule } from 'src/courses/courses.module'
 import { AdminModule } from '../admin/admin.module'
 import { DatabaseModule } from '../database/database.module'
 import { RecipeModule } from '../recipes/recipes.moudel'
@@ -21,7 +22,8 @@ import { RecipeModule } from '../recipes/recipes.moudel'
       }
     }),
     RecipeModule,
-    AdminModule
+    AdminModule,
+    CourseModule
   ],
   exports: [JwtModule]
 })
