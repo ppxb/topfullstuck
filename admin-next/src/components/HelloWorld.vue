@@ -1,7 +1,5 @@
 <template>
-  <div class="hello">
-    {{ msg }}
-  </div>
+  <div class="hello">{{ msg }}</div>
 </template>
 
 <script lang="ts">
@@ -10,7 +8,7 @@ import { defineComponent } from 'vue'
 export default defineComponent({
   name: 'Helloworld',
   props: {
-    msg: { type: String, default: 'asdasd' }
+    msg: { type: String, default: 'hello' }
   }
 })
 </script>
