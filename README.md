@@ -31,7 +31,7 @@ WIP
 
 # Screenshot
 
-![LoginPage](./screenshot/screenshot_20200619160958.png LoginPage)
+![LoginPage](https://github.com/ppxb/topfullstack/blob/master/screenshot/screenshot_20200619160958.png LoginPage)
 
 # 如何使用
 
