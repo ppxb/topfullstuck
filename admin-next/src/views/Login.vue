@@ -30,6 +30,17 @@
         </svg>
         Top FullStack
       </div>
+      <div class="form">
+        <div class="title">Welcome Back</div>
+        <input type="text" placeholder="USERNAME" class="input" />
+        <input type="password" placeholder="PASSWORD" class="input" />
+        <div class="desc">
+          Built by
+          <span>&nbsp;Vue3&nbsp;</span> and
+          <span>&nbsp;Typescript</span>
+        </div>
+        <button class="btn">Log in</button>
+      </div>
       <footer>
         made with
         <span>&nbsp;❤</span>
@@ -58,21 +69,22 @@ export default defineComponent({
 <style scoped lang="less">
 .container {
   display: flex;
-  min-height: 100vh;
+  height: 100vh;
 
   .content {
     display: flex;
     flex-direction: column;
-    padding: 20px 60px;
+    padding: 20px 80px;
     flex: 1;
-    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.35);
-    color: #202020;
+    color: #333333;
 
     .logo {
       display: flex;
       align-items: center;
-      font-size: 22px;
+      font-size: 26px;
+      margin-bottom: 20px;
       font-weight: 700;
+      height: fit-content;
 
       .svg {
         width: 44px;
@@ -86,11 +98,54 @@ export default defineComponent({
       }
     }
 
+    .form {
+      display: flex;
+      flex-direction: column;
+      flex: 3;
+      justify-content: center;
+      color: #333333;
+
+      .title {
+        font-size: 5em;
+        margin-bottom: 20px;
+      }
+
+      .input {
+        border: none;
+        outline: none;
+        padding: 20px;
+        color: #333;
+        font-size: 18px;
+        background: #fafafa;
+        border-radius: 12px;
+        margin-bottom: 20px;
+      }
+
+      .desc {
+        display: flex;
+        justify-content: center;
+
+        span {
+          color: #9375ff;
+        }
+      }
+
+      .btn {
+        border: none;
+        padding: 20px;
+        border-radius: 12px;
+        margin-top: 32px;
+        font-size: 20px;
+        color: #fff;
+        background: #6236ff;
+      }
+    }
+
     footer {
       display: flex;
       align-items: center;
       margin-top: auto;
-      padding: 20px;
+      height: fit-content;
 
       span {
         color: #fb5051;
@@ -103,8 +158,8 @@ export default defineComponent({
     flex-direction: column;
     align-items: flex-end;
     justify-content: flex-end;
-    padding: 20px 60px;
-    flex: 2;
+    padding: 20px 80px;
+    flex: 3;
     background: url('../assets/slogan2.jpg');
     background-size: cover;
     background-position: center;
