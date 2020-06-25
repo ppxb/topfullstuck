@@ -1,17 +1,25 @@
 import { createRouter, createWebHistory, RouteRecordRaw } from 'vue-router'
 import Components from '../views/Components.vue'
 import Login from '../views/Login.vue'
+import { CLayout } from '../components'
 
 const routes: RouteRecordRaw[] = [
   {
     path: '/',
-    name: 'Login',
-    component: Login
+    name: 'Layout',
+    component: CLayout,
+    children: [
+      {
+        path: '/',
+        name: 'comp',
+        component: async () => import('../views/Components.vue')
+      }
+    ]
   },
   {
-    path: '/comp',
-    name: 'Components',
-    component: Components
+    path: '/login',
+    name: 'Login',
+    component: Login
   }
 ]
 

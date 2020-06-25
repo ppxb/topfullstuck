@@ -97,7 +97,7 @@ export default defineComponent({
       align-items: center;
       font-size: 26px;
       margin-bottom: 20px;
-      font-weight: 600;
+      font-weight: 700;
       height: fit-content;
 
       .svg {
@@ -119,8 +119,7 @@ export default defineComponent({
       justify-content: center;
 
       .title {
-        font-size: 4.5em;
-        font-weight: 700;
+        font-size: 5em;
         margin-bottom: 20px;
         color: #2c3e50;
       }
@@ -128,7 +127,7 @@ export default defineComponent({
       .input {
         border: none;
         outline: none;
-        padding: 14px 12px;
+        padding: 16px;
         color: #2c3e50;
         font-size: 1em;
         background: #f4f7f8;
@@ -148,10 +147,9 @@ export default defineComponent({
 
       .btn {
         border: none;
-        padding: 14px 12px;
+        padding: 16px;
         border-radius: 12px;
         font-size: 1em;
-        font-weight: 600;
         color: #fff;
         background: #6236ff;
         transition: all 0.25s ease;
