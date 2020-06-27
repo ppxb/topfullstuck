@@ -1,0 +1,44 @@
+.c-icon-close {
+  width: 30px;
+  height: 30px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  transition: all 0.25s ease;
+
+  &::before {
+    background: #333;
+    content: '';
+    position: absolute;
+    width: 16px;
+    height: 2px;
+    transform: rotate(-45deg);
+    border-radius: 2px;
+    transition: all 0.3s ease;
+  }
+  &::after {
+    background: #333;
+    content: '';
+    position: absolute;
+    width: 16px;
+    height: 2px;
+    transform: rotate(45deg);
+    border-radius: 2px;
+    transition: all 0.3s ease;
+  }
+
+  &.c-icon-hover-less {
+    &:hover {
+      cursor: pointer;
+      &::before {
+        width: 14px;
+        transform: rotate(180deg);
+      }
+      &::after {
+        width: 14px;
+        transform: rotate(180deg);
+      }
+    }
+  }
+}

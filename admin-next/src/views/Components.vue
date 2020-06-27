@@ -1,5 +1,7 @@
 <template>
   <div class="comp">
+    <h1>Icons</h1>
+    <close-icon />
     <h1>Button</h1>
     <c-button type="success" size="small" @click="say">hello world</c-button>
     <c-button type="primary">hello world</c-button>
@@ -22,6 +24,7 @@
 <script lang="ts">
 import { defineComponent, inject, nextTick } from 'vue'
 import { CAvatar, CButton } from '../components'
+import CloseIcon from '../components/Icons/close'
 
 // const notificationConstructor = defineComponent({ extends: CAvatar })
 
@@ -36,7 +39,8 @@ export default defineComponent({
   name: 'Components',
   components: {
     CButton,
-    CAvatar
+    CAvatar,
+    CloseIcon
   },
   setup() {
     const name = inject('$vs')
