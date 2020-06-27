@@ -10,10 +10,6 @@
     <c-avatar>
       <i class="bx bxs-hot"></i>
     </c-avatar>
-    <h1>Button</h1>
-    <c-button type="success" size="small" @click="say">hello world</c-button>
-    <c-button type="primary">hello world</c-button>
-    <c-button type="danger" size="large">Dark</c-button>
     <h1>Avatar</h1>
     <c-avatar src="https://vuesax.com/avatars/avatar-5.png" size="large"></c-avatar>
     <c-avatar size="large">Lily</c-avatar>
@@ -24,8 +20,17 @@
 </template>
 
 <script lang="ts">
-import { defineComponent } from 'vue'
+import { defineComponent, inject, nextTick } from 'vue'
 import { CAvatar, CButton } from '../components'
+
+// const notificationConstructor = defineComponent({ extends: CAvatar })
+
+// notificationConstructor.prototype.close = function() {
+//   this.isVisiable = false
+// }
+
+// const instance = new notificationConstructor()
+// instance.close()
 
 export default defineComponent({
   name: 'Components',
@@ -34,7 +39,8 @@ export default defineComponent({
     CAvatar
   },
   setup() {
-    const say = () => console.log(123)
+    const name = inject('$vs')
+    const say = () => console.log(name)
 
     return {
       say

@@ -8,7 +8,7 @@
 </template>
 
 <script lang="ts">
-import { defineComponent, computed } from 'vue'
+import { defineComponent, computed, ref } from 'vue'
 
 export default defineComponent({
   name: 'CAvatar',
@@ -22,6 +22,7 @@ export default defineComponent({
     }
   },
   setup(props) {
+    const isVisiable = ref(false)
     const avatarCls = computed(() => {
       const classList = []
       if (props.size) classList.push(`c-avatar__${props.size}`)
@@ -29,9 +30,14 @@ export default defineComponent({
       return classList.join(' ')
     })
 
+    const close = () => {
+      isVisiable.value = false
+    }
+
     return {
       avatarCls,
-      props
+      props,
+      close
     }
   }
 })
